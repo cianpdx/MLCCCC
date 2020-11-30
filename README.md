@@ -1,6 +1,8 @@
 # MLCCCC
 Machine Learning Chicken Coop Camera Counter
 
+Pycharm Project
+
 A Raspberry Pi or similar with a camera is placed in the roost of a chicken coop with a top-down view. At evening time motion sensing is turned on with MotionEye. Images are passed to the ML model to determine if all the chickens are inside the coop. Once they are all inside for some dwell time and confidence, the coop door can be shut for the night using some servo or motor driver output. 
 
 Goal is to close the door as soon as possible after sunset, without trapping any chickens outside. 
